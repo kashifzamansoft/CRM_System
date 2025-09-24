@@ -34,14 +34,21 @@ The system allows **user management, project requests, and admin handling** with
 
 ## File Structure
 
-- `index.php` → Landing page  
-- `login.php` → User login  
-- `registration.php` → User registration  
-- `dashboard.php` → User dashboard  
-- `prequest.php` → Project request form  
-- `quote-details.php` → Quote detail view  
-- `admin/` → Admin panel  
-- `dbconnection.php` → Database connection file  
+| File/Folder | Description |
+| :--- | :--- |
+| `index.php` | The main landing page. |
+| `login.php` | User login interface. |
+| `registration.php` | New user registration form. |
+| `dashboard.php` | Logged-in user's main dashboard. |
+| `prequest.php` | Form for submitting a new project request. |
+| `quote-details.php` | View for detailed quote information. |
+| `dbconnection.php` | Database configuration and connection script. |
+| `admin/` | Contains all files and scripts for the **Admin Panel**. |
+| `checklogin.php` | Script to process and verify login attempts. |
+| `create-ticket.php` | Interface for users to create a support ticket (alternative to `prequest.php`). |
+| `view-tickets.php` | User's view of submitted tickets/requests. |
+| `manage-quotes.php` | Admin view to manage and update quotes. |
+| `profile.php` | User's profile management page. |
 
 ---
 
